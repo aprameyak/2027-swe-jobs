@@ -1,0 +1,136 @@
+name: Add Job Listing
+description: Submit a new software engineering internship or new grad job to be added to the list.
+title: "[JOB] <Company> — <Role> (<Season/Type>)"
+labels: ["new listing", "needs review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a job listing! Please fill out all required fields as accurately as possible.
+
+        > **Tip:** If you are comfortable with Markdown, consider submitting a Pull Request directly — it is faster and lets you control the formatting.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company Name
+      description: The official name of the company.
+      placeholder: "e.g. Stripe"
+    validations:
+      required: true
+
+  - type: input
+    id: careers_url
+    attributes:
+      label: Company Careers Page URL
+      description: Link to the company's general careers or jobs page.
+      placeholder: "https://stripe.com/jobs"
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: Role / Job Title
+      description: The exact job title as listed in the posting.
+      placeholder: "e.g. Software Engineer Intern"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: listing_type
+    attributes:
+      label: Listing Type
+      description: Is this an internship or a new grad (full-time) role?
+      options:
+        - Internship
+        - New Grad (Full-Time)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: season
+    attributes:
+      label: Season / Term
+      description: Select the recruiting season this listing applies to.
+      options:
+        - Summer 2027
+        - Fall 2027
+        - Winter 2027
+        - 2027 (New Grad — no specific season)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: City and state (US) or city and country (international). Use "Multiple" if there are many locations. Use "Remote" if fully remote.
+      placeholder: "e.g. San Francisco, CA or Remote"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: remote
+    attributes:
+      label: Remote / Hybrid?
+      options:
+        - "Yes — Fully Remote"
+        - "Hybrid"
+        - "No — In-Person Only"
+        - "Unknown"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sponsorship
+    attributes:
+      label: Visa Sponsorship Available?
+      description: Does the company offer visa sponsorship (e.g. H-1B, OPT) for this role?
+      options:
+        - "Yes"
+        - "No"
+        - "Unknown"
+    validations:
+      required: true
+
+  - type: input
+    id: apply_link
+    attributes:
+      label: Direct Application Link
+      description: A direct link to the job application page (not just the careers homepage).
+      placeholder: "https://stripe.com/jobs/listing/software-engineer-intern/123456"
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Application Deadline (Optional)
+      description: If known, enter the application deadline in YYYY-MM-DD format.
+      placeholder: "e.g. 2026-11-01"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes (Optional)
+      description: Any other relevant information (e.g. specific team, referral required, early deadline for certain candidates).
+      placeholder: "e.g. Applications reviewed on a rolling basis. Apply early."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following before submitting.
+      options:
+        - label: The application link is publicly accessible (no login required to view the posting).
+          required: true
+        - label: The listing is not already in the repository.
+          required: true
+        - label: The information I provided is accurate to the best of my knowledge.
+          required: true
