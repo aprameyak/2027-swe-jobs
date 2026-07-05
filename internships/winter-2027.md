@@ -1,56 +1,29 @@
 # ❄️ Winter 2027 Software Engineering Co-ops & Internships
 
-> **Last Updated:** 2026-07-05
->
-> Applications for Winter 2027 co-ops and internships typically open in **July–September 2027**.
-> Check back frequently — new listings are added as they go live.
+Use this page to share and keep track of software engineering co-ops and internships for **Winter 2027**. The list is maintained collaboratively — contribute by submitting an [issue](https://github.com/aprameyak/2027-swe-jobs/issues/new/choose)!
 
-[← Back to Main List](../README.md)
+⚠️ Please note that this repository is exclusively for internships/co-ops in the United States, Canada, or Remote positions 🌎
 
 ---
 
-## Quick Navigation
+## The List 🚴🏔
 
-- [Status Legend](#status-legend)
-- [Listings](#listings)
-- [How to Contribute](#how-to-contribute)
+### Legend
+ - 🛂 - Does NOT offer Sponsorship
+ - 🇺🇸 - Requires U.S. Citizenship
+ - 🔒 - Internship application is closed
 
----
+[⬇️ Jump to bottom ⬇️](#)
 
-## Status Legend
+<!-- Please leave a one line gap between this and the table TABLE_START (DO NOT CHANGE THIS LINE) -->
 
-| Symbol | Meaning |
-|--------|---------|
-| 🟢 Open | Applications are open |
-| 🟡 Rolling | Reviewed on a rolling basis — apply soon |
-| 🔴 Closed | Applications are no longer accepted |
+| Company | Role | Location | Application/Link | Date Posted |
+| ------- | ---- | -------- | ---------------- | ----------- |
+| Shopify | Software Engineer Intern — Winter 🛂 | Remote (Canada) | <a href="https://www.shopify.com/careers/search?specialties%5B%5D=engineering"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 5 |
 
----
+<!-- Please leave a one line gap between this and the table TABLE_END (DO NOT CHANGE THIS LINE) -->
 
-## Listings
-
-> Sorted alphabetically by company name.
-> Use `Ctrl+F` / `Cmd+F` to search for a specific company or role.
-
-| Company | Role | Location | Remote | Sponsorship | Apply | Date Added | Status |
-|---------|------|----------|--------|-------------|-------|------------|--------|
-| [Shopify](https://www.shopify.com/careers) | Software Engineer Intern — Winter | Remote (Canada) | Yes | Unknown | [Apply](https://www.shopify.com/careers/search?specialties%5B%5D=engineering) | 2026-07-05 | 🟢 Open |
-
----
-
-> **This list is just getting started.** Winter 2027 listings will be added as they open — typically mid-2027. [Contribute a listing](../CONTRIBUTING.md) to help build it out!
-
----
-
-## How to Contribute
-
-Found a listing that's missing? Please:
-
-1. Read [CONTRIBUTING.md](../CONTRIBUTING.md) for formatting guidelines.
-2. Open a [pull request](https://github.com/aprameyakannan/2027-swe-jobs/compare) with your addition.
-3. Or [open an issue](https://github.com/aprameyakannan/2027-swe-jobs/issues/new/choose) if you prefer not to submit a PR.
-
-Keep entries sorted **alphabetically by company name**.
+> **This list is just getting started.** Winter 2027 listings will be added as they open — typically mid-2027.
 
 ---
 

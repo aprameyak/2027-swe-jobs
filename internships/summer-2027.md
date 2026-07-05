@@ -1,56 +1,32 @@
 # ☀️ Summer 2027 Software Engineering Internships
 
-> **Last Updated:** 2026-07-05
->
-> Applications for Summer 2027 internships typically open in **August–October 2026**.
-> Check back frequently — new listings are added as they go live.
+Use this page to share and keep track of software engineering internships for **Summer 2027**. The list is maintained collaboratively — contribute by submitting an [issue](https://github.com/aprameyak/2027-swe-jobs/issues/new/choose)!
 
-[← Back to Main List](../README.md)
+⚠️ Please note that this repository is exclusively for internships/co-ops in the United States, Canada, or Remote positions 🌎
 
 ---
 
-## Quick Navigation
+## The List 🚴🏔
 
-- [Status Legend](#status-legend)
-- [Listings](#listings)
-- [How to Contribute](#how-to-contribute)
+### Legend
+ - 🛂 - Does NOT offer Sponsorship
+ - 🇺🇸 - Requires U.S. Citizenship
+ - 🔒 - Internship application is closed
 
----
+[⬇️ Jump to bottom ⬇️](#)
 
-## Status Legend
+<!-- Please leave a one line gap between this and the table TABLE_START (DO NOT CHANGE THIS LINE) -->
 
-| Symbol | Meaning |
-|--------|---------|
-| 🟢 Open | Applications are open |
-| 🟡 Rolling | Reviewed on a rolling basis — apply soon |
-| 🔴 Closed | Applications are no longer accepted |
+| Company | Role | Location | Application/Link | Date Posted |
+| ------- | ---- | -------- | ---------------- | ----------- |
+| Apple | Software Engineer Intern, Undergrad | United States | <a href="https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 5 |
+| ↳ | Software Engineering Intern, Masters | United States | <a href="https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 5 |
+| Google | Software Engineering Intern, BS | Mountain View, CA | <a href="https://careers.google.com/jobs/results/?category=INTERN"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 5 |
+| Meta | Software Engineer Intern | Menlo Park, CA | <a href="https://www.metacareers.com/careersearch/?q=intern"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 5 |
+| Microsoft | Software Engineering Intern | Redmond, WA | <a href="https://careers.microsoft.com/students/us/en/search-results?keywords=intern"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 5 |
+| Stripe | Software Engineer Intern 🛂 | San Francisco, CA | <a href="https://stripe.com/jobs/search?q=intern"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 5 |
 
----
-
-## Listings
-
-> Sorted alphabetically by company name.
-> Use `Ctrl+F` / `Cmd+F` to search for a specific company or role.
-
-| Company | Role | Location | Remote | Sponsorship | Apply | Date Added | Status |
-|---------|------|----------|--------|-------------|-------|------------|--------|
-| [Apple](https://jobs.apple.com/) | Software Engineering Intern | Cupertino, CA | No | Unknown | [Apply](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN) | 2026-07-05 | 🟢 Open |
-| [Google](https://careers.google.com/) | Software Engineering Intern, BS | Mountain View, CA | Hybrid | Yes | [Apply](https://careers.google.com/jobs/results/?category=INTERN) | 2026-07-05 | 🟢 Open |
-| [Meta](https://www.metacareers.com/) | Software Engineer Intern | Menlo Park, CA | No | Yes | [Apply](https://www.metacareers.com/careersearch/?q=intern) | 2026-07-05 | 🟡 Rolling |
-| [Microsoft](https://careers.microsoft.com/) | Software Engineering Intern | Redmond, WA | Hybrid | Yes | [Apply](https://careers.microsoft.com/students/us/en/search-results?keywords=intern) | 2026-07-05 | 🟢 Open |
-| [Stripe](https://stripe.com/jobs) | Software Engineer, Intern | San Francisco, CA | No | Unknown | [Apply](https://stripe.com/jobs/search?q=intern) | 2026-07-05 | 🟢 Open |
-
----
-
-## How to Contribute
-
-Found a listing that's missing? Please:
-
-1. Read [CONTRIBUTING.md](../CONTRIBUTING.md) for formatting guidelines.
-2. Open a [pull request](https://github.com/aprameyakannan/2027-swe-jobs/compare) with your addition.
-3. Or [open an issue](https://github.com/aprameyakannan/2027-swe-jobs/issues/new/choose) if you prefer not to submit a PR.
-
-Keep entries sorted **alphabetically by company name**.
+<!-- Please leave a one line gap between this and the table TABLE_END (DO NOT CHANGE THIS LINE) -->
 
 ---
 

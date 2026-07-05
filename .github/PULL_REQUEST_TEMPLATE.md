@@ -2,7 +2,7 @@
 
 <!-- Briefly describe what this PR changes. Examples:
   - Add [Company] [Role] to Summer 2027 internships
-  - Update status of [Company] to Closed
+  - Mark [Company] as closed (🔒)
   - Fix broken apply link for [Company]
   - Remove expired listings from Fall 2027
 -->
@@ -12,40 +12,35 @@
 ## Type of Change
 
 - [ ] Add new job listing(s)
-- [ ] Update job status (Open / Rolling / Closed)
+- [ ] Mark role(s) as closed (🔒)
 - [ ] Fix broken link(s)
 - [ ] Remove expired listing(s)
-- [ ] Update documentation (README, CONTRIBUTING, etc.)
+- [ ] Update documentation
 - [ ] Other (describe below)
 
 ---
 
 ## Checklist
 
-Please verify all of the following before requesting a review.
-
 ### Formatting
-- [ ] Table row follows the correct column order: `Company | Role | Location | Remote | Sponsorship | Apply | Date Added | Status`
-- [ ] Company name is hyperlinked to the company's careers page
-- [ ] Apply column uses `[Apply](URL)` format, not a bare URL
-- [ ] Date Added is in `YYYY-MM-DD` format
-- [ ] Status uses only 🟢, 🟡, or 🔴
-- [ ] Remote value is one of: `Yes`, `No`, or `Hybrid`
-- [ ] Sponsorship value is one of: `Yes`, `No`, or `Unknown`
+- [ ] Table row follows the correct column order: `Company | Role | Location | Application/Link | Date Posted`
+- [ ] Company column is **plain text** (no hyperlink)
+- [ ] Apply button uses the correct HTML image format: `<a href="URL"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a>`
+- [ ] Closed roles show 🔒 in the Application/Link column (not a dead link)
+- [ ] Date Posted is in `Mon DD` format (e.g. `Jul 5`)
+- [ ] Sponsorship flags (🛂, 🇺🇸) are appended to the role title where applicable
+- [ ] Multiple roles at same company use `↳` in the Company column
+
+### Scope
+- [ ] The role is in the **United States, Canada, or is Remote** — no international-only roles
 
 ### Links
-- [ ] The company careers page link is valid and loads correctly
-- [ ] The apply link goes directly to the job posting (not just the homepage)
+- [ ] The apply link goes directly to the job posting (not just the careers homepage)
 - [ ] The posting is publicly accessible without requiring a login
 
 ### Duplicates & Order
 - [ ] I checked that this listing does not already exist in the file
-- [ ] New entries are inserted in alphabetical order by company name
-
-### Content
-- [ ] The role title matches exactly what is listed on the company's careers page
-- [ ] The location is accurate (City, State for US; City, Country for international)
-- [ ] For status updates, the status accurately reflects the current state of the listing
+- [ ] New entries are inserted in **alphabetical order** by company name
 
 ---
 

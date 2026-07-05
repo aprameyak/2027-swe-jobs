@@ -8,23 +8,16 @@ body:
       value: |
         Thank you for submitting a job listing! Please fill out all required fields as accurately as possible.
 
-        > **Tip:** If you are comfortable with Markdown, consider submitting a Pull Request directly — it is faster and lets you control the formatting.
+        > **Tip:** If you are comfortable with Markdown, consider submitting a Pull Request directly — it is faster and gives you full control over formatting. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+        > ⚠️ This repository is **exclusively for roles in the United States, Canada, or Remote** positions. International-only roles will not be added.
 
   - type: input
     id: company
     attributes:
       label: Company Name
-      description: The official name of the company.
+      description: The official name of the company (plain text — no URL needed here).
       placeholder: "e.g. Stripe"
-    validations:
-      required: true
-
-  - type: input
-    id: careers_url
-    attributes:
-      label: Company Careers Page URL
-      description: Link to the company's general careers or jobs page.
-      placeholder: "https://stripe.com/jobs"
     validations:
       required: true
 
@@ -66,31 +59,31 @@ body:
     id: location
     attributes:
       label: Location
-      description: City and state (US) or city and country (international). Use "Multiple" if there are many locations. Use "Remote" if fully remote.
+      description: City and state (US) or city and country (Canada). Use "Remote" if fully remote. Use "Multiple" if there are many locations.
       placeholder: "e.g. San Francisco, CA or Remote"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: remote
-    attributes:
-      label: Remote / Hybrid?
-      options:
-        - "Yes — Fully Remote"
-        - "Hybrid"
-        - "No — In-Person Only"
-        - "Unknown"
     validations:
       required: true
 
   - type: dropdown
     id: sponsorship
     attributes:
-      label: Visa Sponsorship Available?
-      description: Does the company offer visa sponsorship (e.g. H-1B, OPT) for this role?
+      label: Visa Sponsorship?
+      description: Does the company sponsor visas (e.g. H-1B, OPT) for this role?
       options:
-        - "Yes"
+        - "Yes — sponsorship available"
+        - "No — does NOT offer sponsorship (add 🛂 to role title)"
+        - "Unknown"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: citizenship
+    attributes:
+      label: U.S. Citizenship Required?
+      description: Does the posting explicitly require U.S. citizenship?
+      options:
         - "No"
+        - "Yes — U.S. citizenship required (add 🇺🇸 to role title)"
         - "Unknown"
     validations:
       required: true
@@ -108,8 +101,8 @@ body:
     id: deadline
     attributes:
       label: Application Deadline (Optional)
-      description: If known, enter the application deadline in YYYY-MM-DD format.
-      placeholder: "e.g. 2026-11-01"
+      description: If known, enter the deadline (any format is fine).
+      placeholder: "e.g. November 1, 2026"
     validations:
       required: false
 
@@ -117,7 +110,7 @@ body:
     id: notes
     attributes:
       label: Additional Notes (Optional)
-      description: Any other relevant information (e.g. specific team, referral required, early deadline for certain candidates).
+      description: Any other relevant details (e.g. specific team, early deadline, rolling basis).
       placeholder: "e.g. Applications reviewed on a rolling basis. Apply early."
     validations:
       required: false
@@ -128,9 +121,11 @@ body:
       label: Checklist
       description: Please confirm the following before submitting.
       options:
+        - label: The role is in the United States, Canada, or is Remote.
+          required: true
         - label: The application link is publicly accessible (no login required to view the posting).
           required: true
-        - label: The listing is not already in the repository.
+        - label: I checked that this listing does not already exist in the repository.
           required: true
         - label: The information I provided is accurate to the best of my knowledge.
           required: true
