@@ -90,12 +90,6 @@ Please open a pull request removing the duplicate, keeping the more complete/acc
 
 ---
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=aprameyak/2027-swe-jobs&type=Date)](https://star-history.com/#aprameyak/2027-swe-jobs&Date)
-
----
-
 ## Disclaimer
 
 - This repository is **not affiliated with any company** listed here.
