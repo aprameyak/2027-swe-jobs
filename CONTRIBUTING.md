@@ -1,4 +1,4 @@
-# Contributing to 2027 SWE Jobs
+# Contributing to 2027 Tech Jobs
 
 Thank you for helping keep this list accurate and up to date!
 

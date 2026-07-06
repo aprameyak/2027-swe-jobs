@@ -1,6 +1,6 @@
-# 2027 SWE Jobs — Internships & New Grad
+# 2027 Tech Jobs — Internships & New Grad
 
-Use this repo to share and keep track of software engineering internships and new grad roles for **2027**. The list is maintained collaboratively by the community!
+Use this repo to share and keep track of tech internships and new grad roles for **2027**. The list is maintained collaboratively by the community!
 
 :warning: Please note that this repository is exclusively for internships/co-ops in the United States, Canada, or Remote positions :earth_americas:
 
